@@ -1,0 +1,20 @@
+{
+  "name": "odev-1-engntuba",
+  "version": "1.0.0",
+  "description": "\"# odev-1-engntuba\"\r \"# odev-1-engntuba\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-engntuba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-engntuba/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-engntuba#readme"
+}
