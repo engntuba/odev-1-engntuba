@@ -4,10 +4,12 @@
   "description": "\"# odev-1-engntuba\"\r \"# odev-1-engntuba\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+    "build": "sucrase ./src -d./dist --transforms imports"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-engntuba.git"
   },
   "keywords": [],
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-engntuba/issues"
   },
-  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-engntuba#readme"
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-engntuba#readme",
+  "devDependencies": {
+    "sucrase": "^3.16.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
